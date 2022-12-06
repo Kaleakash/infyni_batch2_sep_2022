@@ -1,3 +1,6 @@
+create database infy_batch2;
+use infy_batch2;
+
 create table department(department_id int, department_name varchar(30),primary key(department_id));
 
 insert into department values(10,'Administration');	
